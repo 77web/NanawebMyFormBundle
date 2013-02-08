@@ -1,0 +1,9 @@
+services:
+    nanaweb_myform.type.date_range:
+        class: Nanaweb\MyFormBundle\Form\Type\DateRangeType
+        tags:
+            - { name: form.type, alias: date_range }
+    nanaweb_myform.type.address:
+        class: Nanaweb\MyFormBundle\Form\Type\AddressType
+        tags:
+            - { name: form.type, alias: address }

@@ -1,0 +1,8 @@
+{% block date_range_widget %}
+{% spaceless %}
+{{ form_errors(form) }}
+{{ form_widget(form.from) }}
+～
+{{ form_widget(form.to) }}
+{% endspaceless %}
+{% endblock %}

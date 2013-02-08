@@ -1,0 +1,3 @@
+parameters:
+    nanaweb_myform.form_resources:
+        - 'NanawebMyFormBundle:Form:date_range_widget.html.twig'
